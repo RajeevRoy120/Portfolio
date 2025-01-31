@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajeev Kumar Roy - Frontend Developer</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <style>
+        /* body {
+            /* background: #f4f4f9;
+            color: #333; */
+        
+        
+         */
+        .row img {
+    transition: transform 0.3s ease;
+}
+
+.row img:hover {
+    transform: scale(1.2);
+}
+
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+            color: #ff4081;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .social-links a {
+            margin: 0 15px;
+            color: #ff4081;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            color: #e91e63;
+        }
+
+        .card {
+            border: none;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-body {
+            text-align: center;
+        }
+
+        .card-body h5 {
+            font-size: 1.25rem;
+        }
+        .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.1); /* Enlarges the image */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Adds a deeper shadow */
+}
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #ffdde1);
+    color: #333;
+    text-align: center;
+}
+
+/* Contact Section */
+#contact {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3f51b5;
+    margin-bottom: 20px;
+}
+
+/* Contact Info */
+#contact p {
+    font-size: 18px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact img {
+    width: 30px; /* Adjust icon size */
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%; /* Makes the icon circular */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Links */
+#contact a {
+    text-decoration: none;
+    color: #2196f3;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact a:hover {
+    color: #e91e63;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    font-size: 24px;
+    color: #333;
+    margin: 0 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.2);
+    color: #e91e63;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Make all cards the same height */
+}
+
+.card-body {
+    flex-grow: 1; /* Makes text take equal space */
+}
+.card-img-top {
+    height: 300px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image fills the space without distortion */
+}
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <img src="roy.jpg" alt="Rajeev Kumar Roy" class="profile-img mb-3">
+            <h1>Rajeev Kumar Roy</h1>
+            <h3>Frontend Developer</h3>
+            <p>I'm a passionate Frontend Developer with expertise in HTML, CSS, JavaScript, and React.js. I create
+                responsive and dynamic websites that provide great user experiences.</p>
+        </div>
+    </header>
+<!-- Skills Section -->
+<section id="skills" class="container py-5">
+    <h2 class="section-title">Skills & Expertise</h2>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <img src="html.png" alt="HTML" width="60">
+            <h4>HTML</h4>
+            <p>Building structured and semantic web pages.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="css.png" alt="CSS" width="60">
+            <h4>CSS</h4>
+            <p>Designing responsive and user-friendly layouts.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="javascript.jpg" alt="JavaScript" width="60">
+            <h4>JavaScript</h4>
+            <p>Adding interactivity and dynamic behavior to websites.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="react.png" alt="React.js" width="60">
+            <h4>React.js</h4>
+            <p>Building modern, fast, and scalable web applications.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="bootstraps.png" alt="Bootstrap" width="60">
+            <h4>Bootstrap</h4>
+            <p>Creating responsive and mobile-first designs with ease.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="excel.png" alt="Advanced Excel" width="60">
+            <h4>Advanced Excel</h4>
+            <p>Data analysis, pivot tables, and automation using Excel.</p>
+        </div>
+    </div>
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="row">
+    
+                <!-- Project 1: Rock, Paper, Scissors Game -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="Games.jpg" class="card-img-top" alt="Rock, Paper, Scissors Game">
+                        <div class="card-body">
+                            <h5 class="card-title">Rock, Paper, Scissors Game</h5>
+                            <p class="card-text">A simple JavaScript-based rock, paper, scissors game.</p>
+                            <a href="https://github.com/RajeevRoy120/Game" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Project 2: Shopping Cart -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="shopping-cart.jpg" class="card-img-top" alt="Shopping Cart">
+                        <div class="card-body">
+                            <h5 class="card-title">Shopping Cart</h5>
+                            <p class="card-text">A fully functional shopping cart using HTML, CSS, and JavaScript.</p>
+                            <a href="https://github.com/RajeevRoy120/Shopping-Card.git" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Project 3: Portfolio Website -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="port.jpg" class="card-img-top" alt="Portfolio Website">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio Website</h5>
+                            <p class="card-text">A responsive personal portfolio built with HTML, CSS, and JavaScript.</p>
+                            <a href="https://github.com/RajeevRoy120/Portfolio.git" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container py-5">
+        <h2 class="section-title">Contact</h2>
+        <p><img src="Wlogo.png" alt="LOGO" width="40"><a href="tel:+916207631903">+91 62076 31903</a>
+        </p>
+        <p><img src="gmail.png" alt="mail" width="40"><a href="mailto:rajeevroy318@gmail.com">rajeevroy318@gmail.com</a></p>
+        <p><img src="linkdin.webp" alt="linkedin" width="40"><a href="https://www.linkedin.com/in/rajeev-roy-61476a19b" target="_blank">Rajeev Roy</a></p>
+        <div class="social-links">
+            <a href="https://github.com/RajeevRoy120" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/rajeev-roy-61476a19b" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Rajeev Kumar Roy</p>
+    </footer>
+
+    <!-- Bootstrap 5 & Font Awesome (for social icons) JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+
+</html>
